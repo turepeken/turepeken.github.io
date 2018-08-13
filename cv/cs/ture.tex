@@ -1,0 +1,151 @@
+\documentclass[10pt,letterpaper,roman]{moderncv}
+\moderncvstyle{banking} 
+\moderncvcolor{black} 
+\renewcommand{\familydefault}{\sfdefault} 
+%\nopagenumbers{} 
+\usepackage[scale=0.85]{geometry} 
+
+% personal data 
+\name{TURE}{PEKEN} 
+\phone[mobile]{(520)~8918360} 
+\email{turepeken@gmail.com} 
+\homepage{turepeken.com} 
+
+\begin{document} 
+\makecvtitle 
+\vspace*{-10mm} 
+
+
+%%%%%%%%%%%%  EXPERIENCE %%%%%%%%%%%%
+\section{Experience} 
+\vspace*{1mm} 
+
+\cventry{May 2018 -- present}{System Engineering Intern}{Keysight Technologies}{Santa Rosa, CA}{} { 
+\begin{itemize}%
+	\item Developed a demodulator for GFDM (one of the 5G candidate signals) in MATLAB and a macro for VSA to analyze demodulated GFDM signals in C\#.
+	\item Developed a blind separation algorithm based on independent component analysis (ICA) in MATLAB for separating undesired signals when measuring a 5G signal. 
+	\item Neural network based ICA was implemented for estimating beamforming weight factors of multiple mixed cell signals in FD-MIMO.
+\end{itemize}}
+\vspace*{1mm} 
+
+\cventry{Aug. 2017 -- Dec. 2017}{Consultant}{Ephibian}{Tucson, AZ}{} { 
+\begin{itemize}%
+	\item Worked as a consultant for developing CellSim, which is a simulator for cellular networks (GSM, CDMA, UMTS, LTE, WIFI) and it is currently being used as a teaching material for CYBV 479
+\end{itemize}} 
+\vspace*{1mm} 
+
+\cventry{May 2017 -- Aug. 2017}{R\&D Engineering Intern}{Keysight Technologies}{Santa Rosa, CA}{} { 
+\begin{itemize}%
+	\item Worked on 5G New Radio Technologies. 
+	\item Implemented physical channels and channel encoder for 5G systems based on TS 38.211 and TS 38.212 using MATLAB.
+	\item Developed a novel hybrid beamforming algorithm, which was based on map-reduce framework, for 5G and integrated into SystemVue.
+\end{itemize}} 
+\vspace*{1mm} 
+
+\cventry{May 2016 -- Aug. 2016}{R\&D Engineering Intern}{Keysight Technologies}{Santa Rosa, CA}{} { 
+\begin{itemize}%
+	\item Worked on channel estimation for massive MIMO which is one of the candidate technologies in 5G.
+	\item Implemented pilot-based, semi-blind, and blind channel estimation algorithms by using C++.
+	\item Integrated channel estimation algorithms with SystemVue.
+	\item This work was presented as a poster titled "Evaluation of Channel Estimation Methods for 5G Radio Interface with Hardware Constraint" in WCNC 2017.
+\end{itemize}} 
+\vspace*{1mm} 
+
+\cventry{Nov. 2013 -- Sept. 2014}{Software Design Engineer}{Netas}{Istanbul, Turkey}{} { 
+\begin{itemize}%
+	\item Worked on software design of LTE-Advanced eNodeB for uplink.
+	\item Focused on LTE physical layer design and developed channel estimation and equalization algorithms for the receiver of the eNodeB.
+	\item Implemented channel estimation and equalization algorithms by using C in Code Composer Studio.
+	\item Tested the algorithms on TCI6638K2K which is a DSP model of Texas Instruments.
+\end{itemize}} 
+\vspace*{1mm} 
+
+
+%%%%%%%%%%%%  EDUCATION %%%%%%%%%%%%
+\section{Education} 
+
+\cventry{Sept. 2014 -- present}
+{PhD in Electrical and Computer Engineering} 
+{University of Arizona}{Tucson, AZ} 
+{GPA:3.78/4.00} 
+{\textbf{Coursework}: Network Information Theory with Engineering Applications, Statistical Machine Learning, DSP, Knowledge-Based Systems, Channel Coding, Advanced Topics in Computer Networks, Linear Algebra, Wireless Communications, Theory of Statistics, Independent Study on Millimeter-wave Massive MIMO} 
+\vspace*{1mm} 
+
+\cventry{Sept. 2011 -- Dec. 2012}
+{Master of Science in Electrical Engineering} 
+{University of Michigan}{Ann Arbor, MI} 
+{GPA:3.34/4.00} 
+{\textbf{Coursework}: Digital Communication and Coding, Communication Networks, Stochastic Processes, Probability, Mathematical Methods for Signal Processing, Game Theory, Real Time Computing} 
+\vspace*{1mm} 
+
+\cventry{Sept. 2006 -- Jan 2011}
+{Bachelor of Science in Telecommunications Engineering} 
+{Istanbul Technical University}{Istanbul, Turkey} 
+{GPA:3.78/4.00} 
+{Ranked \textbf{3rd} in Telecommunications Engineering} 
+\vspace*{1mm} 
+
+\cventry{Sept. 2006 -- May 2011}
+{Bachelor of Science in Computer Engineering} 
+{Istanbul Technical University}{Istanbul, Turkey} 
+{GPA:3.69/4.00} 
+{Ranked \textbf{4th}  in Computer Engineering.} 
+\vspace*{1mm} 
+
+
+%%%%%%%%%%%%  Teaching Experience %%%%%%%%%%%%
+\section{Teaching Experience} 
+\vspace*{1mm} 
+
+\cventry{Jan. 2017 -- May 2018}{Lecturer}{University of Arizona}{Wireless Networking and Security (CYBV 479)}{} { 
+\begin{itemize}%
+	\item This lecture conforms to the National Security Agency NSA Center of Academic Excellence in Cyber Operations 
+	\item Taught wireless technologies, mobile protocols, mobile identifiers, mobile and location-based services, mobile encryption standards, wireless security.
+\end{itemize}} 
+\vspace*{1mm} 
+	
+\cventry{Sept. 2015 -- May 2016}{Teaching Assistant}{University of Arizona}{Microprocessor Organization  (ECE 372A)}{} { 
+}
+\cventry{Jan. 2015 -- May 2015}{Teaching Assistant}{University of Arizona}{Computational Techniques (ECE 330)}{} { 
+}
+\cventry{Sept. 2014 -- Dec. 2014}{Teaching Assistant}{University of Arizona}{Applications of Engineering Mathematics  (ECE 310)}{} { 
+}
+
+%%%%%%%%%%%%  Publications %%%%%%%%%%%%
+\section{Publications} 
+\cvlistitem{T. Peken, R. Tandon, and T. Bose, "Non-Gaussian Signal Detection: How much can massive MIMO help?", IEEE ICC, 2018.}
+\cvlistitem{T. Peken, R. Tandon, and T. Bose, "Map-Reduce Based Hybrid Beamforming: Trade-Off between Complexity and Cost," in in the Proceedings of WInnComm 2017.} 
+\cvlistitem{T. Peken, R. Tandon, and T. Bose, "Elastic Net for Channel Estimation in Massive MIMO", in International Telemetering Conference, 2017} 
+\cvlistitem{T. Peken, G. Vanhoy, and T. Bose, "Blind Channel Estimation for Massive MIMO," Analog Integrated Circuits and Signal Processing (2017) 91: 257} 
+\cvlistitem{T. Peken, M. Hirzallah, and T. Bose, "Effect of Imperfect Channel Estimation on Spectrum Sharing Between the Massive MIMO System and MIMO Radar," in the Proceedings of the SDR-WInnComm, pp. 178 - 182, March 24-26, 2015.}
+\cvlistitem{S. Ozen, T. Peken, and S. Oktug, "Energy Efficient Wireless Sensor Network System for Localization", EMERGING 2012, The Fourth International Conference on Emerging Network Intelligence, pp. 43-48.}
+\cvlistitem{T. Peken and U. Aygolu, "Adaptive physical layer network coding," 2011 6th International ICST Conference on Communications and Networking in China (CHINACOM), Harbin, 2011, pp. 1146-1150.}
+
+
+%%%%%%%%%%%%  Awards %%%%%%%%%%%%
+\section{Awards}
+\cvlistitem{The University of Arizona GPSC Travel Grant for ICC 2018 (May 2018)}
+
+\cvlistitem{College of Engineering Travel Grant for WInnComm 2017 (Nov. 2017)}
+\cvlistitem{Poster "Elastic Net for Channel Estimation in Massive MIMO" ranked 3rd in Broadband Wireless Access and Applications Center 2016}
+\cvlistitem{Turkish Foundation Education Scholarship (Sept. 2011 -- Dec. 2012)}
+\cvlistitem{High Honor List in Istanbul Technical University (Sept. 2006 -- May 2011)}
+
+%%%%%%%%%%%%  Skills %%%%%%%%%%%%
+\section{Tehnical Skills} 
+\cvlistdoubleitem{MATLAB, C, NesC, C++, QT, C\#}
+				 {SystemVue, Signal Studio, VSA}
+\cvlistdoubleitem{Python, R, SQL, TinyOS, Assembly}
+				 {Eclipse, Netbeans, Visual Studio, Code Composer Studio}
+\cvlistdoubleitem{MXG, PXA, Field Fox}
+				 {}
+				 
+\end{document} 
+
+
+%% NOTLAR
+% experience-> PM pozisyonuna uygun sekilde duzenle. "Worker on ... " sonuc ne oldu?
+% - NSA toplanti senin contributionlar nasi ekleriz 
+% skilleri duzelt
+% 
+
