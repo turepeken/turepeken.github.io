@@ -24,6 +24,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
 }
 
 a:link {
@@ -80,7 +81,7 @@ a:active {
 }
 
 header {
-    margin-top: 5%;
+    margin-top: 15%;
     line-height: 3em;
     border-bottom: 1px dotted #ddd;
     margin-bottom: 1.6em;
